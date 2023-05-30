@@ -4,6 +4,7 @@
     background-color:rgba(0,0,0,0.1);
     --component-color:white;
     --color-brand-footer: #172337;
+    font-family: 'Roboto', sans-serif;
 }
 
 .body * + *{
@@ -305,7 +306,9 @@ ul{
 }
 footer{
     background-color:var(--color-brand-footer);
+    font-size:12px;
     color:rgba(240,240,240,0.6);
+    text-align:left;
 }
 .main-footer{
     display:flex;
@@ -334,4 +337,33 @@ footer{
 }
 .slide {
     transition:1s ease-in-out;
+}
+
+
+.footer-list{
+    color:white;
+    width:200px;
+    margin-left:5rem;
+    margin-right:3rem;
+}
+
+.footer-list>div{
+    padding:1rem;
+}
+.footer-icons-links {
+    background-color:var(--color-brand-footer);
+    width:100%;
+    color:white;
+}
+
+.footer-link{
+    display:flex;
+    margin:-1rem 0;
+    padding:1rem;
+    justify-content:space-around;
+}
+
+.footer-container hr {
+    margin-left:5rem;
+    margin-right:5rem;
 }
